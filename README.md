@@ -3,9 +3,6 @@
 This program will automatically download all content from your zenfolio account,
 just create a .env file with your credentials and watch the magic happen!
 
-As always, when entering secret data in this manner be sure to check 
-all code for malicious activity before running! :)
-
 Created by: Matt Kimlinger <br/>
 Mattkimlinger@gmail.com <br/>
 https://github.com/mattkimlinger/Zenfolio_Scrape
