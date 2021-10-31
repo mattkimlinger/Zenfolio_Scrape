@@ -30,8 +30,7 @@ https://www.zenfolio.com/johndoe/e/p773939117
 npm start
 
 ##
-## If Chrome driver does not work
-### Install Chrome Driver & replace path
+## If Chrome driver does not work <br/>Install Chrome Driver & replace path
 1. Find your current chrome version type - chrome://settings/
 2. download the corresponding driver from
 https://chromedriver.chromium.org/downloads
