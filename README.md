@@ -31,7 +31,7 @@ https://www.zenfolio.com/johndoe/e/p773939117
 
 ## How to Run 
 npm start
-\n\n
+/n/n
 The program will cycle through until the data receive from the scrape triggers the alarm
 
 
