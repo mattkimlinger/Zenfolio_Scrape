@@ -18,7 +18,7 @@ pip install selenium
 
 ### Create ENV
 1. create new '.env' file in root directory
-2. create these variables with your values
+2. create these variables with your values<br/>
     ZEN_USERNAME=johndoe@gmail.net<br/>
     ZEN_PASSWORD=password1<br/>
     ZEN_PATH=johndoe<br/>
