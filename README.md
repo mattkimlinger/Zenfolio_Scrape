@@ -5,9 +5,9 @@ just create and .env with your credentials and watch the magic happen!
 
 As always, when entering secret data be sure to check all code for malicious activity before running! :)
 
-Created by : Matt Kimlinger
-
+Created by: Matt Kimlinger
 Mattkimlinger@gmail.com
+https://github.com/mattkimlinger/Zenfolio_Scrape
 
 ## HOW TO USE
 
