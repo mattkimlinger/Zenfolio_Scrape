@@ -1,4 +1,3 @@
-from logging import currentframe, log
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -9,7 +8,7 @@ from datetime import datetime
 from os.path import join, dirname
 from dotenv import load_dotenv
 from time import sleep
-import sys, pickle, os, getpass, pathlib
+import os
 
 ######################### PROGRAM CONFIG #########################
 dotenv_path = join(dirname(__file__), '.env')
@@ -29,15 +28,12 @@ def printTime(preText):
     current_time = now.strftime("%H:%M:%S")
     print(preText, current_time)
 
-# function to take care of downloading files
-
-
 CURRENT_DIR = os.getcwd()
 DOWNLOAD_DIR = CURRENT_DIR + '\Album_Downloads' 
-print('CURRENT_DIR', CURRENT_DIR)
 print('DOWNLOAD DIRECTORY: ', DOWNLOAD_DIR)
-sleep(1)
+
 def enable_download_headless(browser, download_dir):
+# function to take care of downloading files
     try:
         browser.command_executor._commands["send_command"] = (
             "POST", '/session/$sessionId/chromium/send_command')
@@ -52,9 +48,7 @@ def enable_download_headless(browser, download_dir):
     except Exception as e:
         print('enable_download_headless', e)
 
-
 ######################### DRIVER CONFIG #########################
-
 DRIVER_PATH = CURRENT_DIR +'\chromedriver.exe'  #put your driver here
 s = Service(DRIVER_PATH)
 chrome_options = Options()
@@ -198,7 +192,7 @@ try:
             print('Clicking Photo Actions')
             driver.find_element(By.XPATH, photoActionsX).click()
             sleep(1)
-            try:
+            try: #This route will depend if album photo count > 1
                 driver.find_element(By.XPATH, downloadOriginalFilesX).click()#Try clicking "Download Original Files"
             except:
                 print('Could not click Download Button, trying other type..')

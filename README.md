@@ -17,7 +17,6 @@ Designed and tested on a Window's Machine. May or may not work on other machines
 ### Prerequisites:
 * python 1 installed
 ### Install Packages
-npm install <br/>
 pip install selenium
 
 ### Create ENV
