@@ -1,6 +1,13 @@
 # Zenfolio Scrape
 
-This program will automatically download all content from you zenfolio account
+This program will automatically download all content from your zenfolio account,
+just create and .env with your credentials and watch the magic happen!
+
+As always, when entering secret data be sure to check all code for malicious activity before running! :)
+
+Created by : Matt Kimlinger
+
+Mattkimlinger@gmail.com
 
 ## HOW TO USE
 
