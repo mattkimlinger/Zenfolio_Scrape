@@ -1,0 +1,13 @@
+{
+    "python.linting.enabled": false,
+    "cSpell.words": [
+        "acaa",
+        "dotenv",
+        "Hrefs",
+        "prefs",
+        "rasterizer",
+        "Usrnme",
+        "zenfolio"
+    ],
+    "python.formatting.provider": "yapf"
+}
