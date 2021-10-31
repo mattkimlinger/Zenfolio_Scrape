@@ -3,7 +3,7 @@
 This program will automatically download all content from your zenfolio account,
 just create a .env file with your credentials and watch the magic happen!
 
-As always, when entering secret data is this manner be sure to check 
+As always, when entering secret data in this manner be sure to check 
 all code for malicious activity before running! :)
 
 Created by: Matt Kimlinger <br/>
@@ -12,7 +12,7 @@ https://github.com/mattkimlinger/Zenfolio_Scrape
 
 ## HOW TO USE
 
-Designed and tested on a Window's Machine.
+Designed and tested on a Window's Machine. May or may not work on other machines
 
 ### Prerequisites:
 * python 1 installed
