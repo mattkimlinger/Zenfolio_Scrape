@@ -19,10 +19,7 @@ ZEN_USERNAME = os.environ.get("ZEN_USERNAME")
 ZEN_PASSWORD = os.environ.get("ZEN_PASSWORD")
 zenHome_URL = 'https://www.zenfolio.com/' + ZEN_PATH + '/e/all-photos.aspx'
 Failed_Urls = []
-print(ZEN_USERNAME)
-print(ZEN_PASSWORD)
 print(ZEN_PATH)
-print(ZEN_PAGE_PATH)
 def printTime(preText):
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
@@ -50,6 +47,7 @@ def enable_download_headless(browser, download_dir):
 
 ######################### DRIVER CONFIG #########################
 DRIVER_PATH = CURRENT_DIR +'\chromedriver.exe'  #put your driver here
+print('DRIVER_PATH: ', DRIVER_PATH)
 s = Service(DRIVER_PATH)
 chrome_options = Options()
 chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
@@ -76,7 +74,7 @@ chrome_options.add_experimental_option(
     })
 driver = webdriver.Chrome(options=chrome_options, service=s)
 driver.maximize_window()
-enable_download_headless(driver, DRIVER_PATH)
+enable_download_headless(driver, DOWNLOAD_DIR)
 
 #XPaths
 UsrnmeX = '/html/body/div[2]/div/div[1]/form/div[2]/div/input'
