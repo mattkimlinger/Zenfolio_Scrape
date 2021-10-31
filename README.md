@@ -5,8 +5,8 @@ just create and .env with your credentials and watch the magic happen!
 
 As always, when entering secret data be sure to check all code for malicious activity before running! :)
 
-Created by: Matt Kimlinger
-Mattkimlinger@gmail.com
+Created by: Matt Kimlinger <br/>
+Mattkimlinger@gmail.com <br/>
 https://github.com/mattkimlinger/Zenfolio_Scrape
 
 ## HOW TO USE
@@ -31,7 +31,5 @@ https://www.zenfolio.com/johndoe/e/p773939117
 
 ## How to Run 
 npm start
-/n/n
-The program will cycle through until the data receive from the scrape triggers the alarm
 
 
