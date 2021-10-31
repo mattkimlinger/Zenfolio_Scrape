@@ -35,4 +35,4 @@ npm start
 1. Find your current chrome version type - chrome://settings/
 2. download the corresponding driver from
 https://chromedriver.chromium.org/downloads
-3. replace the driver  with newly downloaded one
+3. replace the driver './chromedriver.exe' with newly downloaded one
