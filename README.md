@@ -9,7 +9,8 @@ https://github.com/mattkimlinger/Zenfolio_Scrape
 
 ## HOW TO USE
 
-Designed and tested on a Window's Machine. May or may not work on other machines
+Designed and tested on a Window's Machine. Driver configurations may 
+need to change in order to work on other machines
 
 ### Prerequisites:
 * python 1 installed
