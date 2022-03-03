@@ -13,7 +13,7 @@ Designed and tested on a Window's Machine. Driver configurations may
 need to change in order to work on other machines
 
 ### Prerequisites:
-* python 1 installed
+* python 3 installed
 ### Install Packages
 pip install selenium
 
